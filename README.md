@@ -1,4 +1,4 @@
-###### Installing maven
+###### Installing maven on windows
 https://www.javatpoint.com/how-to-install-maven
 
 ###### Run on local
@@ -21,3 +21,19 @@ This opens browser with URL: https://smartcradle20.herokuapp.com/
 
 ###### Run unit tests
 `mvn test`
+
+###### Updating data
+`
+curl --location --request POST 'https://smart-cradle.herokuapp.com/api/feed' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "temperature":37,
+    "hasWetDiaper": true,
+    "isCrying": false
+}'
+`
+
+###### Getting data
+`
+curl --location --request GET 'https://smart-cradle.herokuapp.com/api/feed'
+`
