@@ -9,7 +9,7 @@ https://www.javatpoint.com/how-to-install-maven
 
 ###### View deployed app
 `heroku open`
-This opens browser with URL: https://smartcradle20.herokuapp.com/
+This opens browser with URL: https://smart-cradle.herokuapp.com/
 
 ###### View logs from Heroku
 `heroku logs --tail`
