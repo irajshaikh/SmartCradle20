@@ -1,0 +1,51 @@
+.container-div {
+	margin-top: 10%;
+}
+
+.side-nav li>a {
+	padding: 0 16px;
+}
+
+.side-nav .divider {
+	margin: 0;
+	height: 8px;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: transparent;
+}
+
+.sidenav-header {
+	background: url("../images/bg6.jpg") no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0px;
+	padding: 0 0 0 15px;
+}
+
+.sidenav-header .row {
+	margin-bottom: 0;
+}
+
+#mobile-demo>li.sidenav-header.blue>div>div>span {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.sidenav-footer {
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+.sidenav-footer .row {
+	margin-bottom: 0;
+}
+
+.sidenav-footer .row .social-icons a {
+	opacity: 0.5;
+	padding: 15;
+	text-align: center;
+	display: inline;
+}
+
+.sidenav-footer .row .social-icons a:hover {
+	background-color: inherit;
+	opacity: 1;
+}

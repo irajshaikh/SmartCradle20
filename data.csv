@@ -1,0 +1,5 @@
+temperature,hasWetDiaper,isCrying
+30,FALSE,FALSE
+30,TRUE,FALSE
+40,TRUE,FALSE
+"80.0","false","true"
