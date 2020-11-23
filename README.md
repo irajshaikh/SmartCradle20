@@ -37,3 +37,6 @@ curl --location --request POST 'https://smart-cradle.herokuapp.com/api/feed' \
 `
 curl --location --request GET 'https://smart-cradle.herokuapp.com/api/feed'
 `
+
+
+![alt text](https://github.com/irajshaikh/SmartCradleWebApp/blob/master/Website.PNG?raw=true)
